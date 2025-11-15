@@ -14,15 +14,16 @@
     .btn-cyber {
       background: #00eaff;
       color: #03121f;
-      font-weight: 600;
-      padding: 0.5rem 1.2rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 0 10px #00eaff;
+      font-weight: 700;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 0 12px #00eaff;
       transition: 0.2s;
+      font-size: 1.25rem;
     }
     .btn-cyber:hover {
       background: #66faff;
-      box-shadow: 0 0 18px #00eaff;
+      box-shadow: 0 0 24px #00eaff;
     }
 
     /* Remove all pseudo-element glitches */
@@ -33,7 +34,10 @@
       header .container { flex-direction: row; justify-content: space-between; }
       header a { margin-left: 0.5rem; }
       h2 { font-size: 1.9rem; }
-      .btn-cyber { padding: 0.45rem 1rem; font-size: 0.9rem; }
+      .btn-cyber {
+        padding: 0.9rem 1.8rem;
+        font-size: 1.4rem;
+      }
     }
   </style>
 </head>
@@ -42,8 +46,8 @@
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-3xl font-extrabold neon tracking-wide">AEGIS</h1>
       <div class="flex space-x-3">
-        <a href="https://twitter.com/YourTwitterPage" target="_blank" class="px-4 py-2 rounded-lg btn-cyber font-semibold">Support</a>
-        <a href="https://t.me/AEGISXRPLBOT" target="_blank" class="px-4 py-2 rounded-lg btn-cyber font-semibold">Open Bot</a>
+        <a href="https://x.com/YourUsername" target="_blank" class="px-4 py-2 rounded-lg btn-cyber font-semibold">Support</a>
+        <a href="https://t.me/YourBotUsername" target="_blank" class="px-4 py-2 rounded-lg btn-cyber font-semibold">Open Bot</a>
       </div>
     </div>
   </header>
@@ -94,19 +98,18 @@
     </div>
   </section>
 
-  <div class="text-center mt-20">
-    <a href="https://t.me/AEGISXRPLBOT" target="_blank" class="btn-cyber px-10 py-4 rounded-xl text-xl font-bold">Launch AEGIS</a>
+  <!-- Launch Button -->
+  <div class="text-center mt-20 mb-4">
+    <a href="https://t.me/YourBotUsername" target="_blank" class="btn-cyber px-14 py-6 rounded-xl text-2xl font-bold">Launch AEGIS</a>
   </div>
 
-  <!-- Disclaimer -->
-  <section class="container mx-auto mt-20 text-center text-blue-300/70 text-sm max-w-2xl">
-    <p>
-      <strong>Disclaimer:</strong> AEGIS provides educational information only and does not offer financial advice. 
+  <!-- Educational Info (nempel ke footer) -->
+  <div class="text-center text-blue-300/70 text-sm mb-2">
+    AEGIS provides educational information only and does not offer financial advice. 
       Always do your own research before making investment decisions.
-    </p>
-  </section>
+  </div>
 
-  <footer class="text-center py-10 text-blue-300/60 mt-20 text-sm">
+  <footer class="text-center py-6 text-blue-300/60 text-sm">
     © 2025 AEGIS. Powered by XRPL.
   </footer>
 </body>
